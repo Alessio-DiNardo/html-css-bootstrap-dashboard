@@ -22,15 +22,15 @@ main nav{
 }
 
 main section.contents{
-    width: 100%;
+    width: calc(100% - 100px);
     height: 100vh;
     background-color: red;
 }
 
 section.upper_content{
     width: 100%;
-    
-    background-color: aqua;
+    color: white;
+    background-color: #1b72e8;
 }
 
 img.my_color-white{
@@ -50,3 +50,43 @@ ul li{
     list-style-type: none;
 }
 
+span.input-group-text{
+    background-color: white;
+    border: none;
+}
+
+input.form-control{
+    background-color: #e5e5e5;
+    color: lightgray;
+    width: 10500px;
+}
+
+div.offcanvas-body{
+    width: 1000px;
+}
+
+
+#offcanvasRight{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width: 992px) {
+    main.nav{
+        width: 160px
+    }
+
+    main.section.contents{
+        width: calc(100%-160px);
+    }
+}
