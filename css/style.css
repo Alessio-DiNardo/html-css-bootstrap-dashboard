@@ -23,8 +23,8 @@ main nav{
 
 main section.contents{
     width: calc(100% - 100px);
-    height: 100vh;
     background-color: red;
+    overflow-y: hidden;
 }
 
 section.upper_content{
@@ -67,18 +67,25 @@ div.offcanvas-body{
 
 
 #offcanvasRight{
-    width: 50%;
+    width: 100%;
 }
 
+img.img-fluid{
+    max-width: 5%;
+}
 
+p.my_border{
+    border-bottom: 1px solid grey;
+    padding-top: 1rem;
+}
 
+div.card-body p{
+    padding-bottom: 2rem;
+}
 
-
-
-
-
-
-
+span.my_simbol{
+    
+}
 
 
 @media  screen and (min-width: 992px) {
@@ -89,4 +96,10 @@ div.offcanvas-body{
     main.section.contents{
         width: calc(100%-160px);
     }
+
+    #offcanvasRight{
+        width: 50%;
+    }
+    
+    
 }
