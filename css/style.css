@@ -22,7 +22,7 @@ main nav{
 
 main section.contents{
     width: calc(100% - 100px);
-    background-color: red;
+    background-color: #f8f9fa;
     overflow-y: hidden;
 }
 
